@@ -1,0 +1,246 @@
+body{
+	font-family: 'Raleway-Light', sans-serif;
+}
+p{
+	font-family: "Raleway-Regular", sans-serif;
+	font-size: 16px;
+
+}
+a{
+	font-family: 'Raleway-Bold', sans-serif;
+	text-decoration: none;
+}
+h4, h5, h6{
+	font-family: 'Dosis', sans-serif;
+}
+h1{
+	font-family: 'Intro', sans-serif;
+	font-weight: 700;
+	font-size: 48px;
+	text-align: center;
+}
+h2{
+	font-weight: 700;
+	font-size: 55px;
+	text-align: center;
+}
+h3{
+	font-size: 48px;
+	font-weight: 700;
+}
+
+css
+::-webkit-input-placeholder {color:#5c5c5c; font-size: 24px; text-align: center;}
+::-moz-placeholder          {color:#5c5c5c;font-size: 24px; text-align: center;}/* Firefox 19+ */
+:-moz-placeholder           {color:#5c5c5c;font-size: 24px; text-align: center;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#5c5c5c;font-size: 24px; text-align: center;}
+
+/*Header*/
+
+header{
+	background: url(../images/header-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.center{
+	text-align: center;
+}
+.margin_top{
+	margin-top: 15px;
+}
+.margin_top32{
+	margin-top: 32px;
+}
+.container{
+	width: 1000px;
+	max-width: 100%
+}
+.navbar{
+	margin-bottom: 0;
+}
+.navbar-default{
+	background-color: #ffe100 ;
+	height: 55px;
+}
+.navbar-default .navbar-nav>li>a {
+	font-family: 'Raleway-Bold', sans-serif;
+	font-weight: 700; 
+	color: #000;
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #97c302;
+	transition: 0.4s;
+}
+.navbar-default .navbar-nav>li>a:focus{
+	color: #97c302;
+}
+.navbar-brand{
+	padding: 0 0 0 20px;
+}
+.tel{
+	font-family: 'Raleway-Bold', sans-serif;
+	font-size: 37px;
+	color: #138dd4;
+}
+.online_btn{
+	display: block;
+}
+.online_btn a{
+	padding: 8px 32px;
+	border-radius: 15px;
+	background-color: #97bf0d;
+	color: #fff;
+}
+.online_btn a:hover{
+	text-decoration: none;
+	background-color: #708e07;
+	transition: .35s;
+}
+
+.third_nav{
+	background: linear-gradient(to bottom, #f5f5f5, #fff);
+	height: 50px;
+	text-align: center;
+
+}
+.third_nav>li>a{
+	font-family: "Raleway-Bold", sans-serif;
+	font-weight: 700;
+	color: #868585;
+	font-size: 24px;
+
+}
+.main_wrap{
+	border-top: 8px solid #97bf0d;
+	background: linear-gradient(to bottom, #f0f4e0, #fbfaf5);
+	
+}
+.form_wrap{
+	background: linear-gradient(to bottom, #a3cf0c, #84aa03);
+	padding: 15px 0 27px 0;
+	width: 365px;
+	margin: 15px auto;
+}
+.form-control{
+	width: 280px;
+	height: 45px;
+	border-radius: 7px;
+	margin: 10px auto;
+
+}
+.form_submit{
+	background-color: #ffd929;
+	border: 3px solid #bcd26d;
+	border-radius: 25px;
+	color: #000;
+	font-size: 24px;
+	padding: 7px 20px;
+	font-weight: bold;
+}
+.form_submit:hover{
+	background-color: #fef059;
+	border: 3px solid #bedc53;
+	transition: 0.4s;
+}
+.sec_block{
+	background: linear-gradient(to bottom, #f1f5e2, #fff);
+}
+.item_pos{
+	position: relative;
+	top: 68px;
+	left: 37px;
+}
+.item_text{
+	margin-left: 12px;
+}
+.buy_btn{
+	display: block;
+
+}
+.buy_btn a{
+	padding: 13px 65px;
+	color: #000;
+	font-size: 18px;
+	background-color: #f3d900;
+}
+.buy_btn a:hover{
+	text-decoration: none;
+	background-color: #f5e988;
+	transition: .4s;
+}
+.last_item_pos{
+	position: relative;
+	top: 45px;
+	left: 21px;
+}
+.eco_sub_items{
+	position: relative;
+	top: 49px;
+	left: 42px;
+}
+
+
+.kess_blue{
+	color: #3da0c1;
+}
+
+.map_wrap{
+	background: linear-gradient(to bottom, #f5f5f5, #fff);
+}
+
+.for{
+	background: linear-gradient(to bottom, #f5f9ec, #fff);
+}
+.footer_wrap{
+	background: linear-gradient(to bottom, #ffd800, #ffe600);
+	border-top: 8px solid #c9c9c9;
+}
+footer a{
+	color: #959595;
+	text-decoration: none;
+}
+footer a:hover{
+	color: #959595;
+	text-decoration: underline;
+}
+
+/* Scroll to top 
+----------------*/
+.scroll-up a{
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+		 -o-border-radius: 50%;
+			border-radius: 50%;
+}
+.scroll-up {
+	position: fixed;
+	display: none;
+	z-index: 999;
+	bottom: 2em;
+	right: 2em;
+}
+
+.scroll-up a {
+	background-color: rgba(135, 135, 135, 0.5);
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+	background-color: rgba(235, 235, 235, .8);
+	color: #97c302;
+}
+
+/* OVERFLOW hidden */
+.overf{
+	overflow: hidden;
+}
